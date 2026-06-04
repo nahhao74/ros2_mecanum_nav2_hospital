@@ -1,5 +1,5 @@
-# PROJECT ROBOT OMNI
-# ROS 2 Nav2: Autonomous Omni-directional Hospital Navigation Robot
+# PROJECT ROBOT MECANUM
+# ROS 2 Nav2: Autonomous Mecanum-directional Hospital Navigation Robot
 
 **Tác giả:** Nguyễn Anh Hào - MSSV: 23134015 & Trần Minh Cương - MSSV: 23134007 
 
@@ -7,7 +7,7 @@
 
 ---
 
-Dự án này triển khai hệ thống điều hướng tự hành toàn diện cho một robot đa hướng (omni-directional robot) hoạt động trong môi trường mô phỏng bệnh viện (AWS Hospital World). Hệ thống được xây dựng trên nền tảng ROS 2 Jazzy và thư viện Nav2 stack trong môi trường mô phỏng Gazebo.
+Dự án này triển khai hệ thống điều hướng tự hành toàn diện cho một robot đa hướng (Mecanum-directional robot) hoạt động trong môi trường mô phỏng bệnh viện (AWS Hospital World). Hệ thống được xây dựng trên nền tảng ROS 2 Jazzy và thư viện Nav2 stack trong môi trường mô phỏng Gazebo.
 
 Điểm nhấn của dự án nằm ở việc giải quyết bài toán động học phức tạp của xe omni trong không gian hẹp. Hệ thống sử dụng Smac A* làm Global Planner để tạo ra các đường đi an toàn, có tính toán đến footprint của robot. Ở cấp độ điều khiển, dự án kết hợp Rotation Shim Controller để xử lý các góc quay ưu tiên, và MPPI Controller để dự đoán và lấy mẫu quỹ đạo trong thời gian thực, giúp robot lách qua các vật cản động một cách mượt mà nhất.
 
@@ -38,7 +38,7 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 
 # Clone repository của dự án
-git clone https://github.com/nahhao74/Omni_project.git
+git clone https://github.com/nahhao74/ros2_mecanum_nav2_hospital.git
 
 # Build
 cd ~/ros2_ws
