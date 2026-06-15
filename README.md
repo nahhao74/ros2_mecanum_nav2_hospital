@@ -1,4 +1,4 @@
-# PROJECT ROBOT MECANUM
+# PROJECT ROBOT
 # ROS 2 Nav2: Autonomous Mecanum-directional Hospital Navigation Robot
 
 **Tác giả:** Nguyễn Anh Hào - MSSV: 23134015 & Trần Minh Cương - MSSV: 23134007 
